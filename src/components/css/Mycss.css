@@ -1,0 +1,6 @@
+.bg-image {
+    background-image: url(/public/logo192.png);
+    background-repeat: no-repeat;
+    background-position: 50px 100px;
+    background-attachment: fixed;
+  }
