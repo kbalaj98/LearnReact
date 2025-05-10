@@ -1,5 +1,7 @@
 import React from "react";
 import './Mycss.css'
+import TextCss from "./Csstext";
+import CssTable from "./CssTable";
 
 function Csstest()
 {
@@ -7,7 +9,9 @@ function Csstest()
 
 
     return (<>
-       
+
+        <CssTable/>
+       <TextCss/>
         <body className="bg-image">
         <div> 
            { data.map((val,index)=><p>This value {index}</p>)} 
