@@ -1,0 +1,12 @@
+.myProp{
+    padding-left: 200px;
+}
+
+#propImg{
+    width: 40px;
+}
+
+.active
+{
+    background-color: blue;
+}
